@@ -1,0 +1,13 @@
+[
+{
+	"priority": 1000,
+	"condition": {
+		"urlFilter": "&action0=getads&",
+		"isUrlFilterCaseSensitive": false
+	},
+	"action": {
+		"type": "block"
+	},
+	"id": 1
+}
+]

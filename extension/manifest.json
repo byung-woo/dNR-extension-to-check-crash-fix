@@ -1,0 +1,32 @@
+{
+  "name": "Crash fix test",
+  "description": "Extension to test crash fix",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request" : {
+    "rule_resources" : [
+      {
+        "id": "ruleset_0",
+        "enabled": false,
+        "path": "ruleset_0.json"
+      },
+      {
+        "id": "ruleset_1",
+        "enabled": false,
+        "path": "ruleset_1.json"
+      },
+      {
+        "id": "ruleset_2",
+        "enabled": false,
+        "path": "ruleset_2.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ]
+}
